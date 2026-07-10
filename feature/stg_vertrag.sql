@@ -1,3 +1,4 @@
 select
     *
-from vertrag;
+from vertrag
+where aktiv=1;
