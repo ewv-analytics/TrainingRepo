@@ -1,3 +1,4 @@
 select
 * 
-from kunde;
+from kunde
+where active=1;
